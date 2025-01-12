@@ -1,0 +1,116 @@
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit> cd .\teste_1\
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git status
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git init
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git status
+On branch master
+No commits yet
+nothing to commit (create/copy files and use "git add" to track)
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git status
+On branch master
+No commits yet
+Untracked files: (use "git add <file>..." to include in what will be committed)
+    index.html
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git add index.html
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git commit -m "meu primeiro repositório"
+[master (root-commit) 29d94ae] meu primeiro repositório
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git status
+On branch master
+nothing to commit, working tree clean
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git status
+On branch master
+Untracked files:
+ (use "git add <file>..." to include in what will be committed)
+    style.css
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git status
+On branch master
+Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+        modified: index.html
+Untracked files:
+    (use "git add <file>..." to update what will be committed)
+        style.css
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git add style.css
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git add index.html
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git commit -m "segundo commit"
+[master aef83ba] segundo commit
+ 2 files changed, 3 insertions(+)
+ create mode 100644 style.css
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> git status
+On branch master
+nothing to commit, working tree clean
+
+"Iniciar o Git Bash..."
+"Iniciar o Git Bash..."
+No Git Bash dar os seguintes comandos para informar o usuário e o email:
+sea-5@DESKTOP-RI8VKG1 MINGW64 ~
+$ git config --global user.name "SEAFromJahu"
+sea-5@DESKTOP-RI8VKG1 MINGW64 ~
+$ git config --global user.email "sea-56@hotmail.com"
+
+"Ir para https://github.com/SEAFromJahu..."
+"Ir para https://github.com/SEAFromJahu..."
+"Criar um novo repositório com o nome 'primeirotestegithub' configurado como 'Public' "
+
+"No Visual Studio Code ir para a pasta 'codigoscursogithub' e criar outra sub pasta 'teste_1'"
+"Dentro de 'PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1>' criar o arquio 'index.html'"
+"Em seguida Iremos criar um Novo Repositório 'Nova Branch de nome -> 'main'' utilizando as linhas de comando que seguem..."
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1> git init
+Initialized empty Git repository in D:/Users/sea-5/SEA/Cofre/A_Alfa/ProjSEA/codigosgithub/teste_1/.git/
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1> git add index.html
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1> git commit -m "primeiro commit no github"
+[master (root-commit) bcc6625] primeiro commit no github
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1> git branch -M main
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1>> git remote add origin https://github.com/SEAFromJahu/primeirotestegithub.git
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1> git push -u origin main
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1> git add index.html
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1> git commit -m "segundo commit"
+[main 627ef11] segundo commit
+ 1 file changed, 1 insertion(+)
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1> git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 256 bytes | 128.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/SEAFromJahu/primeirotestegithub.git
+   bcc6625..627ef11  main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogithub\teste_1>
+
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1> 
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
+PS D:\Users\sea-5\SEA\Cofre\A_Alfa\ProjSEA\soulcode\codigoscursogit\teste_1>
